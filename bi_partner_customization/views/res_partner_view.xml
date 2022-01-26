@@ -7,9 +7,9 @@
             <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='vat']" position="after">
-                    <field name="photo1" widget="many2many_binary"/>
-                    <field name="photo2" widget="many2many_binary"/>
-                    <field name="photo3" widget="many2many_binary"/>
+                    <field name="field1" placeholder="Field 1 ..."/>
+                    <field name="field2" placeholder="Field 2 ..."/>
+                    <field name="field3" placeholder="Field 3 ..."/>
                 </xpath>
             </field>
         </record>
