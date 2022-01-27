@@ -7,9 +7,9 @@
             <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='vat']" position="after">
-                    <field name="field1" placeholder="Field 1 ..."/>
-                    <field name="field2" placeholder="Field 2 ..."/>
-                    <field name="field3" placeholder="Field 3 ..."/>
+                    <field name="name_prop" placeholder="Name ..."/>
+                    <field name="nbr_block" placeholder="Number of blocks ..."/>
+                    <field name="nbr_floor_block" placeholder="Number of floors by block ..."/>
                 </xpath>
             </field>
         </record>

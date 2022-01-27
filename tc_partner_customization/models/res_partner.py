@@ -4,9 +4,9 @@ from odoo import fields, models
 class Partner(models.Model):
     _inherit = "res.partner"
 
-    field1 = fields.Char("Field 1")
-    field2 = fields.Char("Field 2")
-    field3 = fields.Char("Field 3")
+    name_prop = fields.Char("Name of the property")
+    nbr_block = fields.Integer("Nbr of blocks")
+    nbr_floor_block = fields.Integer("Nbr of floors by block")
 
     def confirm_membership(self):
         pass
